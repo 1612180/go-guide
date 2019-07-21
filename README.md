@@ -6,9 +6,10 @@
 
 ## Use Mixed Case
 
-Don't use _
+Don't use \_
 
 Acronyms should all be capital
+
 ```
 ServerHTTP
 FindID
@@ -118,3 +119,35 @@ Error values should be `ErrFoo`
 ```
 var ErrFormat = errors.New("image: unknown format")
 ```
+
+## Reference
+
+https://talks.golang.org/2014/names.slide
+
+# Check errors
+
+## Reference
+
+https://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully
+
+# Test
+
+```
+go test -coverprofile=coverage.out
+
+go tool cover -html=coverage.out
+```
+
+## Reference
+
+https://blog.golang.org/cover
+
+https://blog.golang.org/subtests
+
+https://github.com/golang/go/wiki/TableDrivenTests
+
+# More
+
+https://github.com/golang/go/wiki/CodeReviewComments
+
+https://dave.cheney.net/practical-go/presentations/gophercon-singapore-2019.html#_choose_identifiers_for_clarity_not_brevity
