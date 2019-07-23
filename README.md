@@ -124,12 +124,6 @@ var ErrFormat = errors.New("image: unknown format")
 
 https://talks.golang.org/2014/names.slide
 
-# Check errors
-
-## Reference
-
-https://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully
-
 # Test
 
 ```
@@ -150,4 +144,4 @@ https://github.com/golang/go/wiki/TableDrivenTests
 
 https://github.com/golang/go/wiki/CodeReviewComments
 
-https://dave.cheney.net/practical-go/presentations/gophercon-singapore-2019.html#_choose_identifiers_for_clarity_not_brevity
+https://dave.cheney.net/practical-go
